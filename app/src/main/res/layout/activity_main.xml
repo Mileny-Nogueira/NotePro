@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="200px">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="200px"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="60px"
+        android:textAlignment="center"
+        android:layout_marginTop="80px"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:id="@+id/linkCadastro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Não tem uma conta? Clique em cadastrar!"
+        android:textAlignment="center"
+        android:textSize="35px"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/lblmsg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="Nome:" />
+    <EditText
+        android:id="@+id/editTextPerson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="40px"
+        android:textColor="@color/cinza_escuro"/>
+    <TextView
+        android:id="@+id/lblmsg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="40px"
+        android:textColor="@color/cinza_escuro"/>
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:text="Entrar"
+        android:layout_marginTop="50px"/>
+    <Button
+        android:id="@+id/btCadastro"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:text="Cadastrar"/>
+</LinearLayout>

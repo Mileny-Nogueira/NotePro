@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="200px">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO"
+        android:layout_marginTop="200px"
+        android:textSize="60px"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira suas informações para completar o cadastro."
+        android:textSize="35px"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"/>
+    <TextView
+        android:id="@+id/lblmsg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:text="Nome:" />
+
+    <EditText
+        android:id="@+id/txtNomeCad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/lblmsg2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail:" />
+
+    <EditText
+        android:id="@+id/txtEmailCad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/lblmsg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:" />
+
+    <EditText
+        android:id="@+id/txtSenhaCad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/lblmsg4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Senha:" />
+
+    <EditText
+        android:id="@+id/txtConfSenhaCad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="Cadastrar" />
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+</LinearLayout>
